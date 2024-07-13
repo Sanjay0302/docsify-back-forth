@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<style>
+  .markdown-section p,
+  .markdown-section h1,
+  .markdown-section h2,
+  .markdown-section h3,
+  .markdown-section ul,
+  .markdown-section ol {
+    text-align: justify;
+  }
+</style>
+
+<body>
+  <div id="app">Please wait...</div>
+  <script>
+    window.$docsify = {
+      name: 'docsify-back-forth',
+      repo: 'https://github.com/Sanjay0302/docsify-back-forth.git',
+      loadSidebar: 'markdown/_sidebar.md',
+      loadNavbar: 'markdown/_navbar.md',
+      maxLevel: 4,
+      subMaxLevel: 2,
+      auto2top: true,
+      autoHeader: true,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="./docsify-back-forth.js"></script>
+</body>
+
+</html>
