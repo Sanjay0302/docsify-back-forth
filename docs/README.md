@@ -52,12 +52,6 @@ You can customize the appearance of the navigation bar by modifying the CSS styl
 
 ---
 
-## Todo
-
-[](./markdown/todo.md ':include')
-
----
-
 ## License
 
 Copyright :copyright: 2024 Sanjay0302

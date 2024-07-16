@@ -1,3 +1,0 @@
-- [ ] `More animations to choose`
-- [ ] `Color : pick the docsify theme accent`
-- [ ] `Compatible with mobile view`
